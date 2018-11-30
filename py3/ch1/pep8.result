@@ -1,0 +1,14 @@
+============================= test session starts ==============================
+platform linux -- Python 3.6.7, pytest-4.0.1, py-1.7.0, pluggy-0.8.0
+rootdir: /home/hnjang2/project/57-exercises-for-programmers/py3/ch1, inifile:
+plugins: pep8-1.0.6
+collected 6 items
+
+p1-hello.py .                                                            [ 16%]
+p2-couting.py .                                                          [ 33%]
+p3-quotes.py .                                                           [ 50%]
+p4-madlib.py .                                                           [ 66%]
+p5-simplemath.py .                                                       [ 83%]
+p6-retirement.py .                                                       [100%]
+
+=========================== 6 passed in 0.07 seconds ===========================
