@@ -1,0 +1,165 @@
+{
+    "count": 20,
+    "quiz": [
+        {
+            "question": "What do we call water in its solid form?",
+            "ex1": "Shaff",
+            "ex2": "Vapor",
+            "ex3": "Liquid",
+            "ex4": "Ice",
+            "answer": "d"
+        },
+        {
+            "question": "Whick group released the hit album 'Backstreet's Back' in 1997?",
+            "ex1": "The Backstreet Boys",
+            "ex2": "Take That",
+            "ex3": "Boyzone",
+            "ex4": "East 17",
+            "answer": "a"
+        },
+        {
+            "question": "What organ of a flower produces the pollen?",
+            "ex1": "Sepal",
+            "ex2": "Carpel",
+            "ex3": "Stamen",
+            "ex4": "Petal",
+            "answer": "c"
+        },
+        {
+            "question": "If you were born on July 1st, what would your astrological sign be?",
+            "ex1": "Virgo",
+            "ex2": "Aries",
+            "ex3": "Cancer",
+            "ex4": "Pisces",
+            "answer": "c"
+        },
+        {
+            "question": "Which of the following is a famous landmark of New York City?",
+            "ex1": "Statue of Liberty",
+            "ex2": "Sphinx",
+            "ex3": "Eiffel Tower",
+            "ex4": "Golden Gate Bridge",
+            "answer": "a"
+        },
+        {
+            "question": "Which branch of physics is concerned with heat and temperature and their relation to energy and work?",
+            "ex1": "Fluid mechanics",
+            "ex2": "Electrodynamics",
+            "ex3": "Plasticity",
+            "ex4": "Thermodynamics",
+            "answer": "d"
+        },
+        {
+            "question": "Last but not...?",
+            "ex1": "Fast",
+            "ex2": "Just in time",
+            "ex3": "Latest",
+            "ex4": "Least",
+            "answer": "d"
+        },
+        {
+            "question": "When does the big hand of a clock point to the 12?",
+            "ex1": "Every quarter to",
+            "ex2": "Every half hour",
+            "ex3": "Every full hour",
+            "ex4": "Every quarter past",
+            "answer": "c"
+        },
+        {
+            "question": "A pentagon has how many sides?",
+            "ex1": "Ten",
+            "ex2": "Three",
+            "ex3": "Five",
+            "ex4": "Seven",
+            "answer": "c"
+        },
+        {
+            "question": "What is the name of the major landmark in Seattle, Washington, that is 605 feet (184 meters) tall?",
+            "ex1": "Space Needle",
+            "ex2": "Liberty Lance",
+            "ex3": "Sky Stick",
+            "ex4": "Peace Pencil",
+            "answer": "a"
+        },
+        {
+            "question": "Originally, most early Irish poetry was written in what language?",
+            "ex1": "Old English",
+            "ex2": "Latin",
+            "ex3": "Hebrew",
+            "ex4": "Gaelic",
+            "answer": "d"
+        },
+        {
+            "question": "What is the symbol of Christianity?",
+            "ex1": "Square",
+            "ex2": "Triangle",
+            "ex3": "Circle",
+            "ex4": "Cross",
+            "answer": "d"
+        },
+        {
+            "question": "Bats are...?",
+            "ex1": "Insects",
+            "ex2": "Birds",
+            "ex3": "Reptiles",
+            "ex4": "Mammals",
+            "answer": "d"
+        },
+        {
+            "question": "What is a baby horse called?",
+            "ex1": "Kitten",
+            "ex2": "Mule",
+            "ex3": "Lamb",
+            "ex4": "Foal",
+            "answer": "d"
+        },
+        {
+            "question": "What fruit should be peeled before you eat it?",
+            "ex1": "Banana",
+            "ex2": "Cherry",
+            "ex3": "Grapes",
+            "ex4": "Apple",
+            "answer": "a"
+        },
+        {
+            "question": "Salvador Dali belonged to which artistic school?",
+            "ex1": "Baroque",
+            "ex2": "Mannerism",
+            "ex3": "Surrealism",
+            "ex4": "Romanticism",
+            "answer": "c"
+        },
+        {
+            "question": "Which basketball team does Dirk Nowitzki play for?",
+            "ex1": "Golden State Warriors",
+            "ex2": "Dallas Mavericks",
+            "ex3": "Chicago Bulls",
+            "ex4": "Miami Heat",
+            "answer": "b"
+        },
+        {
+            "question": "What is hit by Ice Hockey players?",
+            "ex1": "Puck",
+            "ex2": "Chuck",
+            "ex3": "Jack",
+            "ex4": "Duck",
+            "answer": "a"
+        },
+        {
+            "question": "Complete the title of the Elton John No.1 - \"Candle in the...\"?",
+            "ex1": "Dark",
+            "ex2": "Night",
+            "ex3": "Wind",
+            "ex4": "Fire",
+            "answer": "c"
+        },
+        {
+            "question": "The brother of my mother is my...?",
+            "ex1": "Grandson",
+            "ex2": "Uncle",
+            "ex3": "Nephew",
+            "ex4": "Brother-in-law",
+            "answer": "b"
+        }
+    ]
+}
