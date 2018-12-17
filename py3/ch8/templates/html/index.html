@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+
+<head>
+	<meta name="author" content="{{ r_data.author }}">
+	<title>{{ r_data.title }}</title>
+	<link rel="stylesheet" href="static/main.css">
+
+</head>
+
+<body>
+<h2>Tabs</h2>
+<div class="tab">
+{% for tab in tabs %}
+<button class="tablinks" onclick="openTab(event, '{{ tab.name }}')">{{ tab.name }}</button>
+{% endfor %}
+</div>
+
+{% for tab in tabs %}
+<div id="{{ tab.name }}" class="tabcontent">
+	<h3>{{ tab.name }}</h3>
+	<object data="{{ tab.image }}" type="image/svg+xml"></object>
+</div>
+{% endfor %}
+</body>
+
+<script src="js/main.js"></script>
+
+</html>
