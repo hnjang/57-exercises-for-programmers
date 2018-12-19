@@ -55,9 +55,14 @@ tabs = [
         {'name': 'Sun', 'image': 'static/Heraldic_Sun.svg'},
         {'name': 'Moon', 'image': 'static/Moon_symbol_crescent.svg'},
         {'name': 'Star', 'image': 'static/Five_Pointed_Star_Solid.svg'},
+        {'name': 'prince', 'image': 'static/the_little_prince.svg'},
 ]
 
-content = template.render(r_data=r_data, tabs=tabs)
+tabs_img = [
+        {'name': 'prince', 'image': 'static/the_little_prince.svg'},
+]
+
+content = template.render(r_data=r_data, tabs=tabs, tabs_img=tabs_img)
 '''
 content = ('<!doctype html>\n<html>\n\n<head>\n<meta name="author" content="' +
            author + '">\n<title>"' + site + '"</title>\n</head>\n\n</html>')

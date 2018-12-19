@@ -36,3 +36,8 @@ body {font-family: Arial;}
   border: 1px solid #ccc;
   border-top: none;
 }
+
+img {
+  width: 100%;
+  height: auto;
+}
