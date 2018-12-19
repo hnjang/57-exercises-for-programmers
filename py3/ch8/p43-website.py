@@ -1,6 +1,8 @@
 import os
 import shutil
-from jinja2 import Environment, PackageLoader, select_autoescape, FileSystemLoader
+from jinja2 \
+        import Environment, PackageLoader, select_autoescape, FileSystemLoader
+
 
 def mkdir_helper(dname):
     try:
@@ -27,7 +29,6 @@ css = input('Want a folder for CSS(Y/n)?')
 mkdir_helper('./{}'.format(site))
 
 if js.lower() != "n":
-    #mkdir_helper('./{}/js'.format(site))
     copytree_helper('./templates/js', './{}/js'.format(site))
 
 if css.lower() != "n":
@@ -35,31 +36,41 @@ if css.lower() != "n":
     '''
     try:
         shutil.copytree('./templates/static', './{}/static'.format(site))
-        #mkdir_helper('./{}/css'.format(site))
+        mkdir_helper('./{}/css'.format(site))
     except FileExistsError:
         pass
     '''
 
 env = Environment(
-        #loader=PackageLoader('thisApplication', 'templates/html'),
-        loader=FileSystemLoader('templates/html'),
-        autoescape=select_autoescape(['html', 'xml'])
-)
+    loader=FileSystemLoader('templates/html'),
+    autoescape=select_autoescape(['html', 'xml']))
 
 template = env.get_template('index.html')
-r_data = {
-        'title': site,
-        'author': author
-        }
+r_data = {'title': site, 'author': author}
 tabs = [
-        {'name': 'Sun', 'image': 'static/Heraldic_Sun.svg'},
-        {'name': 'Moon', 'image': 'static/Moon_symbol_crescent.svg'},
-        {'name': 'Star', 'image': 'static/Five_Pointed_Star_Solid.svg'},
-        {'name': 'prince', 'image': 'static/the_little_prince.svg'},
+    {
+        'name': 'Sun',
+        'image': 'static/Heraldic_Sun.svg'
+    },
+    {
+        'name': 'Moon',
+        'image': 'static/Moon_symbol_crescent.svg'
+    },
+    {
+        'name': 'Star',
+        'image': 'static/Five_Pointed_Star_Solid.svg'
+    },
+    {
+        'name': 'prince',
+        'image': 'static/the_little_prince.svg'
+    },
 ]
 
 tabs_img = [
-        {'name': 'prince', 'image': 'static/the_little_prince.svg'},
+    {
+        'name': 'prince',
+        'image': 'static/the_little_prince.svg'
+    },
 ]
 
 content = template.render(r_data=r_data, tabs=tabs, tabs_img=tabs_img)
